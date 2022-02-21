@@ -10,7 +10,7 @@ function App() {
 
   return (
     <main>
-      <section>
+      <section className={Styles.container}>
         <div className={Styles.title}>
           <h2 className={Styles["title__heading"]}>our menu</h2>
           <div className={Styles["title__underline"]}></div>

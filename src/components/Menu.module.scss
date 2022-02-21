@@ -1,5 +1,20 @@
 .menu {
+  width: 90vw;
+  float: left;
+  width: 50%;
+  //   max-width: 1170px;
+  display: flex;
+  @media screen and (min-width: 1200px) {
+    width: 95vw;
+  }
+
   &__item {
+    content: "";
+    display: table;
+    clear: both;
+
+    @media screen and (min-width: 768px) {
+    }
   }
 
   &__photo {
@@ -12,11 +27,23 @@
   }
 
   &__info {
+    display: flex;
+    justify-content: space-between;
+    & header {
+      border-bottom: 0.5px dotted hsl(210, 22%, 49%);
+    }
+
+    & h4 {
+      margin-bottom: 0.5rem;
+    }
   }
 
   &__price {
+    color: #c59d5f;
   }
 
   &__desc {
+    margin-bottom: 0;
+    padding-top: 1rem;
   }
 }
