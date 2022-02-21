@@ -1,0 +1,14 @@
+.title {
+  &__heading {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  &__underline {
+    margin: auto;
+    height: 0.2rem;
+    width: 5rem;
+    background: #c59d5f;
+  }
+}
