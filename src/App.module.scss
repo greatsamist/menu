@@ -2,9 +2,11 @@
   width: 90vw;
   margin: 0 auto;
   max-width: 1170px;
+  padding: 5rem 0;
 
   @media screen and (min-width: 992px) {
     width: 95vw;
+    margin: 0 auto;
   }
 }
 
@@ -18,7 +20,8 @@
     margin-bottom: 0.2rem;
   }
   &__underline {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     height: 0.2rem;
     width: 5rem;
     background: #c59d5f;
