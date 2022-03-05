@@ -1,11 +1,11 @@
 .container {
   width: 90vw;
-  max-width: 1170px;
   padding: 5rem 0;
+  margin: auto;
 
   @media screen and (min-width: 992px) {
     width: 95vw;
-    margin-left: auto;
+    margin: auto;
   }
 }
 
