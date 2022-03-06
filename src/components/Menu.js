@@ -12,7 +12,7 @@ const Menu = ({ items }) => {
             <div className={Styles["menu__info"]}>
               <header>
                 <h4>{title}</h4>
-                <h4 className={Styles["menu__price"]}>{price}</h4>
+                <h4 className={Styles["menu__price"]}>${price}</h4>
               </header>
               <p className={Styles["menu__desc"]}>{desc}</p>
             </div>
